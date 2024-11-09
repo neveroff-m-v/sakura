@@ -1,0 +1,49 @@
+body {
+	margin: 0 0 0 0;
+    padding: 0 0 0 0;
+	background: #242424;
+}
+
+div {
+    position: absolute;
+}
+
+.default,
+.hover {
+    font: normal 16px "Segoe UI";
+    color: #FFFFFF;
+    transition-duration: 0.1s;
+    text-align: center;
+    padding: 0 0 0 0;
+    outline: none;
+}
+
+.icon {
+    font: normal 16px "Segoe MDL2 Assets";
+    color: #FFFFFF;
+    transition-duration: 0.1s;
+    text-align: center;
+    padding: 0 0 0 0;
+    outline: none;
+}
+
+.default {
+    background: transparent;
+    border: none;
+}
+
+.title {
+    border-bottom: 2px solid #CC0000;
+}
+
+.hover {
+    background: #383838;
+    border: 1px solid #424242;
+}
+
+.active,
+.hover:hover,
+.focus:focus {
+    background: #420000;
+    border: 1px solid #CC0000;
+}
